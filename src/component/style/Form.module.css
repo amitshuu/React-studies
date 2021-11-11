@@ -1,0 +1,104 @@
+.form {
+  margin-top: 1rem;
+  background-color: #fff;
+  width: 25%;
+  min-width: 325px;
+  min-height: 30vh;
+  border-radius: 1.7rem;
+  box-shadow: 0 4px 15px -2px #676865;
+}
+
+.formControlInput {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f5f5f5;
+  border-radius: 0.8rem;
+  min-height: 17vh;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  backface-visibility: hidden;
+}
+
+.titleInput {
+  margin-top: 1rem;
+  box-shadow: none;
+  outline: none;
+  border-bottom: solid 2px #020202;
+  font-size: 18px;
+  background: transparent;
+  border-style: none none solid none;
+  backface-visibility: hidden;
+}
+
+.titleInput::placeholder {
+  text-align: center;
+}
+
+.infoHeader {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  line-height: 10px;
+  border-left: #c9ff6e solid;
+  border-width: 0.3rem;
+  padding-left: 4px;
+  margin-bottom: 0.4rem;
+}
+
+.infoContainer {
+  margin-top: 1rem;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.infoContainer input {
+  width: 40%;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  border: 1.7px solid #020202;
+  background: transparent;
+  transition: all 0.2s ease-out;
+  backface-visibility: hidden;
+  font-weight: 600;
+  color: black;
+}
+
+.titleInput:focus {
+  transform: scale(1.1);
+  transition: all 0.2s;
+  backface-visibility: hidden;
+}
+
+.infoContainer input:focus {
+  transition: all 0.2s ease-out;
+  transform: scale(1.1);
+}
+
+input[type="date"] {
+  color: rgb(88, 86, 86);
+}
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+
+.submitBtn {
+  background-color: #c9ff6e;
+  border: none;
+  border-radius: 0.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 50%;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  transition: all 0.6s;
+}
+
+.submitBtn:hover {
+  background-color: #dffbae;
+  transition: all 0.3s;
+}

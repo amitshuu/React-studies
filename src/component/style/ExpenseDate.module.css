@@ -1,0 +1,11 @@
+.dateContainer {
+  margin: 0.3rem;
+  width: 10%;
+  font-size: 15px;
+  border: 2px solid #060606;
+  background-color: #e2e2e2;
+  min-width: 80px;
+  border-radius: 1rem;
+  text-align: center;
+  /* padding: 3px; */
+}

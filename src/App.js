@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Expenses from "./component/Expenses";
+import Form from "./component/Form";
+import Alert from "./component/Alert";
+import { useGlobalContext } from "./context";
+const App = () => {
+  const { alert } = useGlobalContext();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <h1 className="title">
+        Expense Tracker
+        <div className="underline"></div>
+      </h1>
+      {alert.display && <Alert {...alert} />}
+      <Form />
+      <Expenses />
     </div>
   );
-}
+};
 
 export default App;

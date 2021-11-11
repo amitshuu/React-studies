@@ -1,0 +1,10 @@
+Making expense list scrollable *
+Adding alert when adding/removing/editing or typing wrong input. *
+Adding filter feature to filter expenses by year choice. *
+Adding total expense depends year ^ *
+
+
+
+
+
+* - done.

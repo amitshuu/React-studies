@@ -1,0 +1,21 @@
+.alert,
+.alertdanger,
+.alertsucceed {
+  width: 15%;
+  min-width: 200px;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.2s;
+}
+
+.alertdanger {
+  background-color: #fc828c;
+  color: #721c24;
+}
+
+.alertsucceed {
+  background-color: #ddfbae;
+  color: #155724;
+}

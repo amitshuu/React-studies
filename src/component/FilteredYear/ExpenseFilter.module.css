@@ -1,0 +1,7 @@
+.filter {
+  border-radius: 0.6rem;
+  background-color: #dfdfdf;
+  width: 20%;
+  min-width: 125px;
+  text-align: center;
+}
